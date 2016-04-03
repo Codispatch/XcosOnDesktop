@@ -6,15 +6,19 @@ To Execute this Program .
           javac StudentRanking/Student.java
           java  StudentRanking/Student
           
-  Please note:  You might warnings like below. please ignore them. 
+  Please note:  You might get warnings like below. Please ignore them. 
           "Note: StudentRanking\Student.java uses unchecked or unsafe operations."
           "Note: Recompile with -Xlint:unchecked for details."
   
   For Linux :Place StudentRanking folder to Home or root Folder.
   Open Terminal. 
-  Type : javac StudentRanking/RankSort.java
+  Type :  javac StudentRanking/RankSort.java
           javac StudentRanking/Student.java
           java  StudentRanking/Student
+  
+   Please note:  You might get warnings like below. Please ignore them. 
+          "Note: StudentRanking\Student.java uses unchecked or unsafe operations."
+          "Note: Recompile with -Xlint:unchecked for details."        
           
   You can also use any IDE like Netbeans,Codeblocks etc to Execute this Program.
   
