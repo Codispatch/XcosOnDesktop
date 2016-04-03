@@ -1,4 +1,5 @@
-Part A- Xcos on Desktop 
+Part A - Xcos on Desktop 
+
 1 . To execute the Java Swing Application - 
    For Windows :
    Place dist folder (which contains XcosOnDesktop.jar files) to D or C or any drive where your Java(JDK/JRE) is installed.
@@ -48,3 +49,7 @@ To Execute this Program .
   JRE vversion : 7
   
   Still got questions regarding running this program ,contact me: codispatch.shravan.c@gmail.com
+
+Part B - Xcos on Web
+
+Coming Soon , Stay Tuned  :)
