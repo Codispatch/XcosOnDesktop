@@ -1,1 +1,50 @@
+Part A- Xcos on Desktop 
+1 . To execute the Java Swing Application - 
+   For Windows :
+   Place dist folder (which contains XcosOnDesktop.jar files) to D or C or any drive where your Java(JDK/JRE) is installed.
+   Open Terminal.
+   Type: cd dist (if you're not inside dist folder)
+         java -jar XcosOnDesktop.jar
+         
+  For Linux : 
+   Place dist folder (which contains XcosOnDesktop.jar files) to to Home or root Folder.
+   Open Terminal.
+   Type: cd dist (if you're not inside dist folder)
+         java -jar XcosOnDesktop.jar
+         
+  You can also use any IDE like Netbeans,Codeblocks etc to Execute this Program.
+  
+  JDK version: 1.7.0
+  JRE vversion : 7       
+  
+Please Note :To Change Background/Font Colour the R,G,B values must be between (0-255) and must be in Format R,G,B or else red error message is shown.     
 
+2. Java to implement a Student Ranking System -
+To Execute this Program .
+ For Windows :
+   Place StudentRanking folder to D or C or any drive where your Java(JDK/JRE) is installed.
+   Open Terminal.
+   Type : javac StudentRanking/RankSort.java
+          javac StudentRanking/Student.java
+          java  StudentRanking/Student
+          
+  Please note:  You might get warnings like below. Please ignore them. 
+          "Note: StudentRanking\Student.java uses unchecked or unsafe operations."
+          "Note: Recompile with -Xlint:unchecked for details."
+  
+  For Linux :Place StudentRanking folder to Home or root Folder.
+  Open Terminal. 
+  Type :  javac StudentRanking/RankSort.java
+          javac StudentRanking/Student.java
+          java  StudentRanking/Student
+  
+   Please note:  You might get warnings like below. Please ignore them. 
+          "Note: StudentRanking\Student.java uses unchecked or unsafe operations."
+          "Note: Recompile with -Xlint:unchecked for details."        
+          
+  You can also use any IDE like Netbeans,Codeblocks etc to Execute this Program.
+  
+  JDK version: 1.7.0
+  JRE vversion : 7
+  
+  Still got questions regarding running this program ,contact me: codispatch.shravan.c@gmail.com
