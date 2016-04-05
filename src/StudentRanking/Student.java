@@ -48,12 +48,11 @@
 
 *<----- SAMPLE OUTPUT ------>
 Rank 		 Rollno 		 Name 		 Lang1 		 Lang2 		 Math 		 Science 		 Evs 		 TotalMarks  
-
-1		130905403		nikhil		 99.0		   99.0		   100.0		   100.0			   100.0		 498.0
-2		130905405		rohit		    98.0		   99.0		   99.0		   98.0			   97.0		 491.0
-3		130905402		shreya		 100.0		100.0		   95.0		   96.0			   97.0		 488.0
-4		130905404		megha		    100.0		100.0		   90.0		   90.0			   90.0		 470.0
-5		130905414		shravan	    100.0		100.0		   90.0		   90.0			   90.0		 470.0
+1		130905406		nikhil		99.0			 99.0			 98.0			 97.0			  100.0		493.0
+2		130905402		shreya		99.0			 98.0			 99.0			 96.0			  99.0		491.0
+3		130905403		rohit			94.0			 96.0			 100.0		 100.0		  94.0		484.0
+4		130905404		megha			100.0			 100.0		 90.0			 90.0			  90.0		470.0
+5		130905414		shravan		100.0			 100.0		 90.0		 	 90.0			  90.0		470.0
 * < -- Other Details -->
 * Sources for ref: Java Complete Reference 9th Edtition ,www.JavaTpoint.com,Stack Overflow 
 * Last Changes made : Duplicate Inputs are handled Safely using HashSet .
