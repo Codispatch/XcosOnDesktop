@@ -3,56 +3,62 @@
  * College : Manipal Institute of Technology
  * Date Uploaded : 3-4-2016 
  * < ------------SAMPLE INPUT ------------------>
- * Enter the Number of Students :  5
-   Enter the Details for N Students : 
-* 
-   Enter the Rollnumber : 130905414
-   Enter the Name : shravan
-   Enter the Language 1 Marks : 100
-   Enter the Language 2 Marks : 100
-   Enter the Math Marks : 90
-   Enter the Science Marks : 90
-   Enter the Evs Marks :  90
-* 
-   Enter the Rollnumber : 130905404
-   Enter the Name : megha
-   Enter the Language 1 Marks : 100
-   Enter the Language 2 Marks : 100
-   Enter the Math Marks : 90
-   Enter the Science Marks : 90
-   Enter the Evs Marks : 90
-* 
-   Enter the Rollnumber : 130905402
-   Enter the Name : shreya
-   Enter the Language 1 Marks : 100
-   Enter the Language 2 Marks : 100
-   Enter the Math Marks : 95
-   Enter the Science Marks : 96
-   Enter the Evs Marks : 97
-* 
-   Enter the Rollnumber : 130905403
-   Enter the Name :  nikhil
-   Enter the Language 1 Marks : 99
-   Enter the Language 2 Marks : 99
-   Enter the Math Marks : 100
-   Enter the Science Marks : 100
-   Enter the Evs Marks : 100
-* 
-   Enter the Rollnumber : 130905405
-   Enter the Name : rohit
-   Enter the Language 1 Marks : 98
-   Enter the Language 2 Marks : 99
-   Enter the Math Marks : 99
-   Enter the Science Marks : 98
-   Enter the Evs Marks : 97
+Enter the Number of Students : 5
+Enter the Details for 5 Students : 
 
-*<----- SAMPLE OUTPUT ------>
+-->> Enter Details for Student Number :: 1
+Enter the Roll Number : 130905414
+Enter the Name : shravan
+Enter the Language 1 Marks : 100
+Enter the Language 2 Marks : 100
+Enter the Math Marks : 90
+Enter the Science Marks : 90
+Enter the Evs Marks : 90
+* 
+-->> Enter Details for Student Number :: 2
+Enter the Roll Number : 130905404
+Enter the Name : megha
+Enter the Language 1 Marks : 100
+Enter the Language 2 Marks : 100
+Enter the Math Marks : 90
+Enter the Science Marks : 90
+Enter the Evs Marks : 90
+* 
+-->> Enter Details for Student Number :: 3
+Enter the Roll Number : 130905402
+Enter the Name : shreya
+Enter the Language 1 Marks : 99
+Enter the Language 2 Marks : 98
+Enter the Math Marks : 99
+Enter the Science Marks : 96
+Enter the Evs Marks : 99
+* 
+-->> Enter Details for Student Number :: 4
+Enter the Roll Number : 130905403
+Enter the Name : rohit
+Enter the Language 1 Marks : 94
+Enter the Language 2 Marks : 96
+Enter the Math Marks : 100
+Enter the Science Marks : 100
+Enter the Evs Marks : 94
+* 
+-->> Enter Details for Student Number :: 5
+Enter the Roll Number : 130905406
+Enter the Name : nikhil
+Enter the Language 1 Marks : 99
+Enter the Language 2 Marks : 99
+Enter the Math Marks : 98
+Enter the Science Marks : 97
+Enter the Evs Marks : 100
+* 
+* <--- SAMPLE OUTPUT --- >
 Rank 		 Rollno 		 Name 		 Lang1 		 Lang2 		 Math 		 Science 		 Evs 		 TotalMarks  
-1		130905406		nikhil		99.0			 99.0			 98.0			 97.0			  100.0		493.0
-2		130905402		shreya		99.0			 98.0			 99.0			 96.0			  99.0		491.0
-3		130905403		rohit			94.0			 96.0			 100.0		 100.0		  94.0		484.0
-4		130905404		megha			100.0			 100.0		 90.0			 90.0			  90.0		470.0
-5		130905414		shravan		100.0			 100.0		 90.0		 	 90.0			  90.0		470.0
+
+1		130905406		nikhil		99.0		99.0		98.0		97.0			100.0		493.0
+2		130905402		shreya		99.0		98.0		99.0		96.0			99.0		491.0
+3		130905403		rohit		94.0		96.0		100.0		100.0			94.0		484.0
+4		130905404		megha		100.0		100.0		90.0		90.0			90.0		470.0
+5		130905414		shravan		100.0		100.0		90.0		90.0			90.0		470.0			   90.0		 470.0
 * < -- Other Details -->
 * Sources for ref: Java Complete Reference 9th Edtition ,www.JavaTpoint.com,Stack Overflow 
 * Last Changes made : Duplicate Inputs are handled Safely using HashSet .
