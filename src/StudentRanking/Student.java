@@ -73,7 +73,7 @@ public class Student  {
     
     private int Rollno;
     public static int Rank;
-    private double TotalMarks=0;
+    private double TotalMarks;
     private String Name;
     private double Lang1;
     private double Lang2;
@@ -264,7 +264,7 @@ public class Student  {
           }
           catch(Exception e)
           {
-              System.out.println(e+"\t Try Again \n"); // Print Default Exception if Any - Like InputMismatch
+              System.out.println(e+"Re-enter  Again \n"); // Print Default Exception if Any - Like InputMismatch
               i=i-1;  // Go back & Do it again
              Integer store=null;
               Iterator v=d.iterator(); 
