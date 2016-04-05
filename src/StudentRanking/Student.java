@@ -147,7 +147,7 @@ public class Student  {
         if(setRollno(rollno))
             this.Rollno=rollno;
         else
-            throw new DuplicateRollnoException("Duplicate Roll Number cannot be entered,");
+            throw new DuplicateRollnoException("Duplicate Roll Number cannot be entered,\t");
 
         // Get the Student Details
         // http://www.javatpoint.com/java-regex 
@@ -157,7 +157,7 @@ public class Student  {
         else if(this.TotalMarks == 0)
         {    
             d.remove(rollno); 
-            throw new InvalidNameException("Must be Characters Only !");
+            throw new InvalidNameException("Must be Characters Only !,\t");
         }
         in.nextLine();
         // Get the Student Marks and Never allow User To Enter Wrong or Invalid Input
@@ -167,7 +167,7 @@ public class Student  {
         {
            if(this.TotalMarks == 0)
            {  d.remove(rollno);   // Remove rollno from HashSet and Start Again
-            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks,");
+            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks,\t");
            }
         }
         else 
@@ -179,7 +179,7 @@ public class Student  {
         {
              if(this.TotalMarks == 0)
            {  d.remove(rollno);   // Remove rollno from HashSet and Start Again
-            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks,");
+            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks,\t");
            }
         }
         else 
@@ -191,7 +191,7 @@ public class Student  {
         {
             if(this.TotalMarks == 0)
            {  d.remove(rollno);    // Remove rollno from HashSet and Start Again
-            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks");
+            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks,\t");
            }
         }
         else 
@@ -203,7 +203,7 @@ public class Student  {
           {
             if(this.TotalMarks == 0)
            {  d.remove(rollno);    // Remove rollno from HashSet and Start Again
-            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks");
+            throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks,\t");
            }
         }
         else 
@@ -215,7 +215,7 @@ public class Student  {
         {
             if(this.TotalMarks == 0)
            {  d.remove(rollno);   
-              throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks");
+              throw new InvalidMarksException("Marks should not be Negative or Greater than Max Marks,\t");
            }
         }
         else 
@@ -264,7 +264,7 @@ public class Student  {
           }
           catch(Exception e)
           {
-              System.out.println(e+"Re-enter  Again \n"); // Print Default Exception if Any - Like InputMismatch
+              System.out.println(e+"\t Re-enter  Again \n"); // Print Default Exception if Any - Like InputMismatch
               i=i-1;  // Go back & Do it again
              Integer store=null;
               Iterator v=d.iterator(); 
